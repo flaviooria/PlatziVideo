@@ -1,4 +1,4 @@
 imagenes/*.png
 .DS_Store
 *.jpg
-.scss
+*.scss

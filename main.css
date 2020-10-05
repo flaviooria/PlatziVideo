@@ -119,9 +119,9 @@ body {
 .carousel-item {
   width: 200px;
   height: 250px;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
-  margin-right: 10px;
+  margin: 0px 10px 15px;
   display: inline-block;
   cursor: pointer;
   transition: 450ms all;
