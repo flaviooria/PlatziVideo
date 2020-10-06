@@ -30,7 +30,7 @@
 
     .carousel__container {
         flex-wrap: wrap;
-        margin: 40px 0px 0px;
+        margin-top: 40px;
     }
 
     .carousel-item:hover ~ .carousel-item {
@@ -48,17 +48,82 @@
 
 }
 @media screen and (max-width: 768px) {
-    body {
-        background-color: red;
+
+    .carousel-item {
+        width: 150px;
+        height: 200px;
+        margin: 0px 10px 20px;
+    }
+
+    .carousel-item__img {
+        width: 150px;
+        height: 200px;
     }
 }
 @media screen and (max-width: 480px) {
-    body {
-        background-color: green;
+    .header__img {
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .header__menu {
+        margin-right: 40px;
+        margin-top: -10px;
+    }
+
+    .carousel-item__detail {
+        padding: 0px 15px 20px;
+        font-size: 1em;
     }
 }
 @media screen and (max-width: 320px) {
-    body {
-        background-color: blue;
+    .header__img {
+        width: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
+
+    .header__menu {
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+
+    .header__menu p {
+        font-size: .8em;
+    }
+
+    .header__menu-profile img {
+        width: 35px;
+    }
+
+    ul li {
+        font-size: .9em;
+    }
+
+    .carousel-item {
+        width: 230px;
+        height: 280px;
+        transition: 450ms all;
+        transform-origin: center;
+    }
+
+    .carousel-item__img {
+        width: 230px;
+        height: 280px;
+        object-fit: cover;
+    }
+      
+    .carousel-item:hover ~ .carousel-item {
+        transform: translate3d(0, 0, 0);
+      }
+      
+      .carousel__container:hover .carousel-item {
+        opacity: .3;
+      }
+      
+      .carousel__container:hover .carousel-item:hover {
+        transform: scale(1.1);
+        opacity: 1;
+      }
 }
