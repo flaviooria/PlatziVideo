@@ -2,3 +2,4 @@ imagenes/*.png
 .DS_Store
 *.jpg
 *.scss
+*.map
