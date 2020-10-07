@@ -1,0 +1,41 @@
+@media only screen and (max-width:480px) {
+    .login__container {
+      background-color: transparent;
+      padding: 0px;
+      border:none;
+      width: 100%;
+    }
+    .login__container--cheekbox {
+        margin: 0;
+    }
+
+    .login__container--redessociales {
+        margin-top: -10px;
+    }
+
+    .login__container--redessociales>div {
+        margin-top: 50px;
+    }
+
+    .login__container-register {
+        font-size: 18px;
+        padding: 0;
+        margin: 80px auto 0px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      padding-bottom: 20px;
+      margin: 0 auto;
+    }
+
+    .footer a {
+        color: white;
+        font-size: 1em;
+        text-decoration: none;
+    }
+  }

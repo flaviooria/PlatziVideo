@@ -43,7 +43,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-}
 
 .login__container--cheekbox {
   display: flex;
@@ -152,15 +151,3 @@ body {
   text-decoration: underline;
 }
 
-@media only screen and (max-width:600px) {
-  .login__container {
-    background-color: transparent;
-    white:100%;
-    padding: 0px;
-    border:none;
-  }
-  .footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
