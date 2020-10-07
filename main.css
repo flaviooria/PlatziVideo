@@ -103,10 +103,10 @@ body {
 }
 
 .carousel {
-  width: 1060px;
-  padding: 30px;
+  width: 100%;
+  padding: 20px;
   position: relative;
-  margin: 0 auto;
+  margin: O;
 }
 
 .carousel__container {
@@ -114,24 +114,23 @@ body {
   margin: 40px 0px;
   display: flex;
   justify-content: center;
-
 }
 
 .carousel-item {
-  width: 250px;
+  width: 230px;
   height: 250px;
   border-radius: 15px;
   overflow: hidden;
-  margin: 0px 30px 50px;
+  margin: 0px 20px 50px;
   display: inline-block;
   cursor: pointer;
   transition: 450ms all;
-  transform-origin: center left;
+  transform-origin: center;
   position: relative;
 }
 
 .carousel-item:hover ~ .carousel-item {
-  transform: translate3d(80px, 0, 0);
+  transform: translate3d(0, 0, 20px);
 }
 
 .carousel__container:hover .carousel-item {
@@ -144,7 +143,7 @@ body {
 }
 
 .carousel-item__img {
-  width: 250px;
+  width: 230px;
   height: 250px;
   object-fit: cover;
 }

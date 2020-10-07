@@ -26,6 +26,16 @@
     .carousel {
         display: block;
         padding: 30px 0px 10px;
+        width: 100%;
+    }
+
+    .carousel-item {
+        width: 200px;
+        margin: 0px 10px 40px;
+    }
+
+    .carousel-item__img {
+        width: 200px;
     }
 
     .carousel__container {
@@ -34,7 +44,7 @@
     }
 
     .carousel-item:hover ~ .carousel-item {
-        transform: translate3d(50px, 0, 0);
+        transform: translate3d(20px, 0, 0);
       }
       
       .carousel__container:hover .carousel-item {
@@ -68,7 +78,7 @@
     }
     
     .header__menu {
-        margin-right: 40px;
+        margin-right: 45px;
         margin-top: -10px;
     }
 
